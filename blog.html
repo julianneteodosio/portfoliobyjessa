@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viewport"content="width=device-width, initial-scale=1.0">
+ <title>Page</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="httpe://fonts.googleapis.com/css2? family=Poppins:wght@@100;200;300;400;600;700&display=swap" rel="stylesheet">
+ 
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+ </head>
+ <body>
+ <section class="header">
+ <nav>
+ <a href="about.html"><img src="images/logo.png"></a>
+ <div class="nav-links" id="navLinks">
+ <i class="fa fa-times" onclick="hideMenu()"></i>  
+ <ul>
+ <li><a href="index.html">HOME</a></li>
+ <li><a href="about.html">ABOUT</a></li>
+ <li><a href="portfolio.html" >PORTFOLIO</a></li>
+ <li><a href="blog.html"class="active" >BLOG</a></li>
+ <li><a href="casestudy.html"class= >CASE STUDY</a></li>
+ <li><a href="contact.html" >CONTACT</a></li>
+ </ul>
+ </div>
+ <i class="fa fa-bars"onclick="showMenu()"></i>
+ </nav>
+ 
+
+
+<section class="blog">
+ <h1>blog</h1>
+  <p>This blog contains thousand of memories with my childhood friends</p>
+   
+   <div class="row">
+     <div class="blog-col">
+       <img src="images/b1.jpg">
+     <h3> January 24, 2022</h3>
+     <p> Jan 23, 2022 We plan to jogging in the morning even though i'm already thin, but for the sake of our friendship I woke up in the morning to join them.</p>
+     </div>
+  
+   <div class="blog-col">
+   <img src="images/b2.jpg">
+   <h3> January 25, 2022</h3>
+   <p>We go together again. Around 6:00am we walked and run and we don't stop until we're sweating after a long run we danced. We also stopped to take a picture of ourselves.</p>
+   </div>
+  
+   <div class="blog-col">
+   <img src="images/b3.png">
+   <h3> January 27, 2022</h3>
+     <p> Jan 27, 2022 We plan to jogging in the morning even though i'm already thin, but for the sake of our friendship I woke up in the morning to join them.</p>
+   <p> </p>
+    
+   </div>
+ </div>
+ 
+ 
+ </section>
+
+
+
+<script>
+   var navLinks = document.getElementById("navLinks");
+   function showMenu(){
+       navLinks.style.right = "0";
+    }
+   function hideMenu(){
+       navLinks.style.right = "-200px";
+   }
+</script>
+</body>
+  </html>
